@@ -1,0 +1,98 @@
+body{
+    background-image: url(/public/img/pattern.jpg);
+    margin: 0;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 1%;
+    background-color:white;
+    padding: 5px;
+}
+
+img .nav-brand{
+    width: 100px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    color: black;
+    padding-right: 30px;
+}
+
+/* Main */
+
+main {
+    margin-top: 10px;
+    padding: 0 200px 0 200px;
+    overflow: auto;
+}
+
+.article-list{
+    box-shadow: 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10pxpx;
+    padding: 10px 20px 50px 20px;
+    background-color: white;
+}
+
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+}
+
+/* about.html */
+#tabel-content{
+    margin: 10px;
+    box-shadow: 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 5px 5px 50px 5px;
+    background-color: white;
+}
+
+#tabel-content h1{
+    text-align: left;
+    padding: 4px;
+}
+
+
+
+/* contact.html */
+main #datamasukkan{
+    box-shadow: 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 5px 5px 50px 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+main .frame{
+    border: 1px solid gray;
+    margin: 2px 0 0 0;
+    padding: 10px 10px;
+}
+.frame h1{
+    text-align: center;
+}
+
+.biodata{
+    font-weight: bold;
+}
+
+table{
+    text-align: left;
+}

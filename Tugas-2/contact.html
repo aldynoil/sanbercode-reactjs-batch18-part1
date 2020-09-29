@@ -1,0 +1,102 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+27px">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!--Logo-->
+        <img src="public/img/logo.png" alt="sanbercodelogo" id="logo" width="200px">
+        
+        <!--Nav-->
+        <nav>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <main>
+            <section id="datamasukkan">
+                <div class="frame">
+                    <h1>Hubungi Kami</h1>
+                        <p><span class="biodata">Kantor : </span>di jalan belum jadi</p>
+                        <p><span class="biodata">Nomor Telepon : </span>08XX-XXXX-XXXX</p>
+                        <p><span class="biodata">Email : </span>email@contoh.com</p>
+                    <form action="">
+                            <h1>Kirimkan Pesan</h1>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <label for="input-nama">Nama</label>
+                                    <br>
+                                    <br>
+                                    </th>
+                                    <td>
+                                        <input id="input-nama" type="text" placeholder="Aldyno">
+                                    <br>
+                                    <br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label for="input-email">Email</label>
+                                        <br>
+                                        <br>
+                                    </th>
+                                    <td>
+                                        <input id="input-email" type="text" placeholder="aldyno@contoh.com">
+                                        <br>
+                                        <br>
+                                    </td>
+                                </tr>
+                                <tr rowspan=2>
+                                    <th>
+                                        <p>Jenis Kelamin</p>
+                                        <br>
+                                        <br>
+                                    </th>
+                                    <td colspan="2">
+                                        <p><input type='radio' name='jenis_kelamin' value='pria' />Pria</p>              
+                                    
+                                        <p><input type='radio' name='jenis_kelamin' value='perempuan' />Perempuan</p>
+                                    <br>
+                                    </td>    
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label for="input-pesan">Pesan Anda</label>
+                                    </th>
+                                    <td>
+                                        <textarea name="" id="input-pesan" cols="50" rows="5">Pesan dan Kesan</textarea>
+                                        <br>
+                                        <br>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                    <button>Kirim</button>    
+                    </form>                        
+                    </div>
+                    <br>        
+            <button><a href="index.html">Kembali Ke Index</a></button>
+            </section>
+    </main>
+
+<!-- Footer -->
+    <footer>
+        <h5>copyright &copy; 2020 by Sanbercode</h5>
+    </footer>
+</body>
+</html>
